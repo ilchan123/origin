@@ -44,7 +44,7 @@
         <section id="home">
             <img class="home__avatar" src="./images/ilchan_ico.png" alt="Ilchan's profile">
             <h2 class="home__title">안녕하세요.<br> <strong class="home__title--strong">황일찬</strong>입니다.</h2>
-            <p class="home__description">세상에서 가장 이상한 대한민국의 AI 개발자입니다</p>
+            <p class="home__description">세상에서 가장 뛰어난(!그만바꿔! 마!) 대한민국의 AI 개발자입니다</p>
             <a class="home__contact" href="#contact">연락처</a>
         </section>
         
@@ -52,36 +52,36 @@
         <section id="about" class="section max-container">
             <h2 class="title">황일찬</h2>
             <p class="description">자기소개: 블라블라블라 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, possimus atque voluptatibus, architecto consectetur aliquam quibusdam consequuntur voluptates odit necessitatibus consequatur? Delectus blanditiis recusandae quidem incidunt, molestias adipisci deleniti vero.</p>
-            <ul>
-                <li>
-                    <i class="fa-brands fa-html5"></i>
-                    <p>Front-end</p>
+            <ul class="majors">
+                <li class="major">
+                    <i class="fa-brands fa-html5 major__icon"></i>
+                    <p class="major__title">Front-end</p>
                     <p>HTML, CSS, Javascript, Node.js, React, React-Native</p>
                 </li>
-                <li>
-                    <i class="fa-solid fa-mobile"></i>
-                    <p>Mobile</p>
+                <li class="major">
+                    <i class="fa-solid fa-mobile major__icon"></i>
+                    <p class="major__title">Mobile</p>
                     <p>React-Native, Android, ios, kotlin</p>
                 </li>
-                <li>
-                    <i class="fa-solid fa-server"></i>
-                    <p>Back-end</p>
+                <li class="major">
+                    <i class="fa-solid fa-server major__icon"></i>
+                    <p class="major__title">Back-end</p>
                     <p>Node.js, FastAPI, Java, GraphQL</p>
                 </li>
             </ul>
-            <ul>
-                <li>
-                    <img src="./images/ilchan_ico.png" alt="NC logo">
+            <ul class="jobs">
+                <li class="job">
+                    <img src="./images/nc_logo.png" alt="NC logo">
                     <div>
-                        <p>언씨소프트 시스템 엔지니어</p>
-                        <p>2012 ~ 2014</p>
+                        <p class="job__name">엔씨소프트 시스템 엔지니어</p>
+                        <p class="job__period">2012 ~ 2014</p>
                     </div>
                 </li>
-                <li>
-                    <img src="./images/ilchan_ico.png" alt="SK logo">
+                <li class="job">
+                    <img src="./images/sk_logo.png" alt="SK logo">
                     <div>
-                        <p>SK M&C 플랫폼 엔지니어</p>
-                        <p>2010 ~ 2012</p>
+                        <p class="job__name">SK M&C 플랫폼 엔지니어</p>
+                        <p class="job__period">2010 ~ 2012</p>
                     </div>
                 </li>
             </ul>
@@ -93,35 +93,60 @@
                 <h2 class="title">기술</h2>
                 <p class="description">언어 및 도구</p>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, saepe dolorem beatae, quam pariatur cum sapiente voluptas distinctio excepturi nam repudiandae modi sunt ea doloremque? Veniam harum impedit cum fuga.</p>
-                <div>
-                    <section>
-                        <h3>언어</h3>
+                <div class="skills">
+                    <section class="skills__coding">
+                        <h3 class="skills__title">언어</h3>
                             <ul>
-                                <li>
-                                    <div><span>HTML</span><span>98%</span></div>
-                                    <div><div style="width: 98%"></div></div>
+                                <li class="bar">
+                                    <div class="bar__metadata">
+                                        <span>HTML</span>
+                                        <span>98%</span>
+                                    </div>
+                                    <div class="bar__bg">
+                                        <div class="bar__value" style="width:58%"></div>
+                                    </div>
                                 </li>
-                                <li>
-                                    <div><span>CSS</span><span>90%</span></div>
-                                    <div><div style="width: 98%"></div></div>
+                                <li class="bar">
+                                    <div class="bar__metadata">
+                                        <span>Javascript</span>
+                                        <span>88%</span>
+                                    </div>
+                                    <div class="bar__bg">
+                                        <div class="bar__value" style="width:98%"></div>
+                                    </div>
                                 </li>
-                                <li>
-                                    <div><span>Javascript</span><span>80%</span></div>
-                                    <div><div style="width: 98%"></div></div>
+                                <li class="bar">
+                                    <div class="bar__metadata">
+                                        <span>React</span>
+                                        <span>80%</span>
+                                    </div>
+                                    <div class="bar__bg">
+                                        <div class="bar__value" style="width:98%"></div>
+                                    </div>
                                 </li>
-                                <li>
-                                    <div><span>React</span><span>98%</span></div>
-                                    <div><div style="width: 98%"></div></div>
+                                <li class="bar">
+                                    <div class="bar__metadata">
+                                        <span>Node.js</span>
+                                        <span>70%</span>
+                                    </div>
+                                    <div class="bar__bg">
+                                        <div class="bar__value" style="width:78%"></div>
+                                    </div>
                                 </li>
-                                <li>
-                                    <div><span>Node.js</span><span>75%</span></div>
-                                    <div><div style="width: 98%"></div></div>
+                                <li class="bar">
+                                    <div class="bar__metadata">
+                                        <span>CSS</span>
+                                        <span>78%</span>
+                                    </div>
+                                    <div class="bar__bg">
+                                        <div class="bar__value" style="width:88%"></div>
+                                    </div>
                                 </li>
                             </ul>
-                        </section>
+                    </section>
 
-                        <section>
-                            <h3>도구</h3>
+                    <section class="skills__tools">
+                            <h3 class="skills__title">도구</h3>
                             <ul>
                                 <li>Visual studio Code</li>
                                 <li>Pycharm</li>
@@ -129,29 +154,37 @@
                                 <li>colab</li>
                                 <li>Xcode</li>
                             </ul>
-                        </section>
+                    </section>
 
-                        <section>
-                            <h3>기타</h3>
+                    <section class="skills__etc">
+                            <h3 class="skills__title">기타</h3>
                             <ul>
                                 <li>Git</li>
                                 <li>Math</li>
                             </ul>
-                        </section>
+                    </section>
+                    
                 </div>
             </div>           
-        </section>
         
         <!-- work -->
         <div id="work" class="section">
             <div class="max-container">
             <h2 class="title">포트폴리오</h2>
             <p class="description">Projects</p>
-            <ul>
-                <li><button>ALL <span>10</span></button></li>
-                <li><button>Front-end <span>3</span></button></li>
-                <li><button>Mobile <span>5</span></button></li>
-                <li><button>Back-end <span>2</span></button></li>
+            <ul class="categories">
+                <li>
+                    <button class="category category--selected">ALL <span class="category__count">10</span></button>
+                </li>
+                <li>
+                    <button class="category category--selected">Front-end<span class="category__count">3</span></button>
+                </li>
+                <li>
+                    <button class="category category--selected">Mobile<span class="category__count">5</span></button>
+                </li>
+                <li>
+                    <button class="category category--selected">Back-end<span class="category__count">2</span></button>
+                </li>
             </ul>
             <ul>
                 <li>
