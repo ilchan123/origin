@@ -376,6 +376,11 @@ button:focus {
     gap: 1rem;
 }
 
+.projects.anim-out{
+    opacity: 0;
+    transform: scale(0.9) translateY(20px);
+}
+
 .project {
     position: relative;
     border-radius: 8px;
