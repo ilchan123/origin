@@ -33,7 +33,7 @@
 body {
     font-family: 'NanumsquareRound', sans-serif;
     margin: 0;
-}
+} 
 
 /* 문자열 사이 간격 줄임 */
 h1, h2, h3, p, ul { margin:0; }

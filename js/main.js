@@ -69,7 +69,7 @@ document.addEventListener('wheel', (event) => {
             event.preventDefault(); // 기본 스크롤 방지
         }
     }
-});
+}); 
  
 // Navbar 메뉴 클릭시 메뉴를 자동으로 닫아줌
 navbarMenu.addEventListener('click',()=>{
