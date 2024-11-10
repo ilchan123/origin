@@ -44,7 +44,7 @@ navbarMenu.addEventListener('click',()=>{
     navbarMenu.classList.toggle('close')
 })
 
-
+ 
 let lastScrollTop = 0;
 document.addEventListener('wheel', (event) => {
     const sections = document.querySelectorAll('section'); // 모든 섹션 선택

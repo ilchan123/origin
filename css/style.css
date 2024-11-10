@@ -47,7 +47,7 @@ a { text-decoration: none; color: var(--color-text);}
 /* 버튼의 배경 색을 날려버릴 수 있다 */
 button {
     background-color: transparent;
-    outline: 0;
+    outline: 0; 
     border: 0;
 }
 
